@@ -35,6 +35,7 @@ module.exports = {
 
             let _updateObj = JSON.parse(winner);
             _updateObj.data_users_raffle = _objTicketsData.data;
+            console.log(`Card: ${_objTicketsData.reference} udated! Participants: ${_objTicketsData.data.total_users} Tickets Card: ${_objTicketsData.data.total_tickets} RoT Updated: ${_objTicketsData.data.total_rot} \n`);
             await Api.patchCard(id, "winner", JSON.stringify(_updateObj));
         }
 
