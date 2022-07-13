@@ -1,0 +1,27 @@
+{
+  "name": "backend-web-raffles",
+  "version": "1.0.0",
+  "description": "Maintain the Information of the Web Raffles - Up-to-date",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kyonax/backend-web-raffles.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Kyonax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kyonax/backend-web-raffles/issues"
+  },
+  "homepage": "https://github.com/Kyonax/backend-web-raffles#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
+}
