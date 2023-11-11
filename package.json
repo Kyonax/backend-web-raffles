@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Kyonax/backend-web-raffles#readme",
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.6.0",
     "dotenv": "^16.0.1"
   }
 }
